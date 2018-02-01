@@ -1,0 +1,22 @@
+{
+  "name": "PdfPresenter-Frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RCCHack/PdfPresenter-Frontend.git"
+  },
+  "author": "tatsuaki85",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RCCHack/PdfPresenter-Frontend/issues"
+  },
+  "homepage": "https://github.com/RCCHack/PdfPresenter-Frontend#readme",
+  "dependencies": {
+    "pdfjs-dist": "^2.0.303"
+  }
+}

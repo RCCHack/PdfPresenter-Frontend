@@ -1,10 +1,12 @@
 {
-  "name": "PdfPresenter-Frontend",
+  "name": "pdfpresenter-frontend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start app.js",
+    "stop": "forever stop app.js",
+    "restart": "forever restart 0"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/RCCHack/PdfPresenter-Frontend#readme",
   "dependencies": {
-    "pdfjs-dist": "^2.0.303"
-  }
+    "express": "^4.16.2",
+    "forever": "^0.15.3",
+    "pdfjs-dist": "^2.0.303",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
